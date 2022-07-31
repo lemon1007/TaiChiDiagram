@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#div1 {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+
+#html {
+    word-break: break-all;
+}
+
+@media (max-width: 500px) {
+    #html {
+        height: 50vh;
+        overflow: auto;
+    }
+
+    #divWrapper {
+        height: 50vh;
+    }
+
+    #div1 {
+        left:25%;
+        top: 20%;
+        position: relative;
+    }
+}
+
+
+
+
